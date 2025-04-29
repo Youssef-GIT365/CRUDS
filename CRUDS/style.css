@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-family: system-ui;
+}
+
+.CRUD {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    outline: none;
+    border: none;
+    background-color: #111;
+    margin: 4px 0px;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+}
+
+input:focus {
+    background-color: #333;
+}
+
+.price {
+    display: flex;
+    gap: 10px;
+}
+
+#total {
+    height: 35px;
+    width: 40px;
+    background-color: rgb(100, 7, 7);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#total::before {
+    content: "Total: ";
+}
+
+#submit {
+    background-color: rgb(93, 4, 152);
+    border-radius: 12px;
+    height: 40px;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
+#submit:hover {
+    background-color: rgb(129, 0, 172);
+    letter-spacing: 1px;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.update, .delete {
+    background-color: rgb(93, 4, 152);
+    border-radius: 12px;
+    height: 30px;
+    padding: 5px;
+    width: 98%;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
+#deleteAllBtn {
+    width: 100%;
+    background-color: rgb(93, 4, 152);
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+}
+#search{
+    width: 750px;
+    height: 25px;
+    outline: none;
+    border: none;
+    background-color: #111;
+    margin: 2px 0px;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+}
+.btnsearch{
+    display: flex;
+    gap: 10px;
+}
+#searchtitle{
+    background-color: rgb(93, 4, 152);
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+}
+#searchcategory{
+    background-color: rgb(93, 4, 152);
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+}
